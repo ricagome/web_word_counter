@@ -1,3 +1,5 @@
+
+import sys # import sys
 import urllib.request
 from collections import Counter
 
@@ -21,11 +23,11 @@ def text_reader(url):
     return data
 
 
+# chilanga_banda1 = 'word_counter/chilanga_banda_lyrics.txt'
+# chilanga_banda = 'https://raw.githubusercontent.com/isabelyb/word_counter/main/chilanga_banda_lyrics.txt'
+# p_to = 'https://raw.githubusercontent.com/isabelyb/word_counter/main/pto.txt'
+# ciclon = 'https://raw.githubusercontent.com/isabelyb/word_counter/main/ciclon.txt'
 
-chilanga_banda = 'https://raw.githubusercontent.com/isabelyb/word_counter/main/chilanga_banda_lyrics.txt'
-p_to = 'https://raw.githubusercontent.com/isabelyb/word_counter/main/pto.txt'
-ciclon = 'https://raw.githubusercontent.com/isabelyb/word_counter/main/ciclon.txt'
-
-text_reader(chilanga_banda)
-text_reader(p_to)
-text_reader(ciclon)
+# text_reader(chilanga_banda1)
+# text_reader(p_to)
+# text_reader(ciclon)

@@ -1,3 +1,4 @@
+import sys
 from collections import Counter
 
 
@@ -20,10 +21,10 @@ def text_reader(url):
     data = file.read()
     return data
 
-chilanga_banda = '/home/isa/estudio/Python/python_basic/09_professional_course/word_counter/chilanga_banda_lyrics.txt'
-p_to = '/home/isa/estudio/Python/python_basic/09_professional_course/word_counter/pto.txt'
-ciclon = '/home/isa/estudio/Python/python_basic/09_professional_course/word_counter/ciclon.txt'
 
-text_reader(chilanga_banda)
-text_reader(p_to)
-text_reader(ciclon)
+try:
+    text_reader(str(sys.argv[1]))
+except:
+    print('This program needs 2 arguments:\n1. python file name\n2. song file path')
+
+
