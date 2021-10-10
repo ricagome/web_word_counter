@@ -28,3 +28,4 @@ except:
     print('This program needs 2 arguments:\n1. python file name\n2. song file path')
 
 
+# text_reader('./song_file.txt')
