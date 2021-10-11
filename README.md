@@ -3,7 +3,7 @@ Making a song word counter as Python decorators exercise
 
 ## To try
 
-1. Download word_counter_url.py
+1. Download ```word_counter_url.py```
 2. In the command line write:
 
 ```
