@@ -1,5 +1,5 @@
 
-import sys # import sys
+import sys
 import urllib.request
 from collections import Counter
 
@@ -23,11 +23,10 @@ def text_reader(url):
     return data
 
 
-# chilanga_banda1 = 'word_counter/chilanga_banda_lyrics.txt'
-# chilanga_banda = 'https://raw.githubusercontent.com/isabelyb/word_counter/main/chilanga_banda_lyrics.txt'
-# p_to = 'https://raw.githubusercontent.com/isabelyb/word_counter/main/pto.txt'
-# ciclon = 'https://raw.githubusercontent.com/isabelyb/word_counter/main/ciclon.txt'
+try:
+    text_reader(str(sys.argv[1]))
+except:
+    print('This program needs 2 arguments:\n1. python file name\n2. song file url')
 
-# text_reader(chilanga_banda1)
-# text_reader(p_to)
-# text_reader(ciclon)
+
+# text_reader(song_file_url)
