@@ -1,5 +1,5 @@
 # word_counter
-Making a song word counter as Python decorators exercise
+Making a word counter as Python decorators exercise
 
 ## To try
 
